@@ -1,0 +1,159 @@
+.work {
+  text-align: center;
+}
+
+.work h1 {
+  font-size: var(--size-3xl);
+  text-decoration: underline;
+}
+
+.work p {
+  font-size: var(--size-base);
+  max-width: 60ch;
+  text-justify: inter-word;
+  margin: 16px auto 48px auto;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  text-align: center;
+}
+
+.projects img {
+  margin: 24px auto;
+}
+
+.outer_heading {
+  font-size: var(--size-2xl);
+  color: var(--clr-slate400);
+}
+
+.inner_heading {
+  display: none;
+  font-size: var(--size-2xl);
+  color: var(--clr-slate400);
+  margin-bottom: 16px;
+}
+
+.projects p {
+  font-size: var(--size-base);
+  max-width: 60ch;
+  text-justify: inter-word;
+  margin: 0 auto;
+}
+
+.projects button {
+  margin: 28px 0;
+}
+
+/* Media Queries */
+
+/* @media (min-width: 375px) {} */
+
+/* @media (min-width: 480px) {} */
+
+@media (min-width: 768px) {
+  .work h1 {
+    font-size: var(--size-4xl);
+  }
+
+  .work p {
+    font-size: var(--size-l);
+  }
+
+  .projects h2 {
+    font-size: var(--size-3xl);
+  }
+
+  .projects p {
+    font-size: var(--size-l);
+  }
+}
+
+@media (min-width: 1024px) {
+  .outer_heading {
+    display: none;
+  }
+
+  .inner_heading {
+    display: block;
+  }
+
+  .projects img {
+    width: 540px;
+    height: 360px;
+  }
+
+  .project_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .project_2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .project_3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  /* .project_4 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  } */
+}
+
+@media (min-width: 1536px) {
+  .work h1 {
+    font-size: var(--size-5xl);
+  }
+
+  .work p {
+    font-size: var(--size-xl);
+  }
+
+  .projects h2 {
+    font-size: var(--size-4xl);
+  }
+
+  .projects img {
+    width: 810px;
+    height: 540px;
+  }
+
+  .projects p {
+    font-size: var(--size-xl);
+  }
+
+  .project_1 {
+    gap: 36px;
+  }
+
+  .project_2 {
+    gap: 36px;
+  }
+
+  .project_3 {
+    gap: 36px;
+  }
+
+  .project_4 {
+    gap: 36px;
+  }
+}
