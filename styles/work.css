@@ -1,5 +1,6 @@
 .work {
   text-align: center;
+  overflow-x: hidden;
 }
 
 .work h1 {

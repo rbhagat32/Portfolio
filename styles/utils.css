@@ -15,7 +15,7 @@
   font-weight: 600;
   text-decoration: none;
   background-color: var(--clr-red);
-  color: var(--clr-light);
+  color: #f1f5f9;
   padding: 0.5em 1em;
   border-radius: 6px;
   box-shadow: 0 10px 20px rgba(225, 29, 72, 0.5),
@@ -25,7 +25,7 @@
 
 .btn:hover {
   transform: translateY(-3px);
-  color: var(--clr-light);
+  color: #f1f5f9;
   background-color: var(--clr-red);
   box-shadow: 0 14px 28px rgba(225, 29, 72, 0.5),
     0 10px 10px rgba(225, 29, 72, 0.5), 0 0 120px -20px var(--clr-red);

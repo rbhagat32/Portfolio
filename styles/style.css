@@ -42,7 +42,11 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
+}
+
+.light-mode {
+  --clr-light: #020617;
+  --clr-dark: #f1f5f9;
 }
 
 body {
@@ -107,13 +111,6 @@ li {
 
 ::placeholder {
   color: var(--clr-light);
-}
-
-#particles-js {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
 }
 
 /* Custom Scrollbar */
