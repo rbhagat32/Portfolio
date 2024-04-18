@@ -25,10 +25,10 @@
 
 .btn:hover {
   transform: translateY(-3px);
-  color: var(--clr-red);
-  background-color: var(--clr-light);
-  box-shadow: 0 14px 28px rgba(241, 245, 249, 0.5),
-    0 10px 10px rgba(241, 245, 249, 0.5), 0 0 120px -10px var(--clr-light);
+  color: var(--clr-light);
+  background-color: var(--clr-red);
+  box-shadow: 0 14px 28px rgba(225, 29, 72, 0.5),
+    0 10px 10px rgba(225, 29, 72, 0.5), 0 0 120px -20px var(--clr-red);
 }
 
 .container {

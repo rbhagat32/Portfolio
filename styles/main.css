@@ -12,6 +12,7 @@
   height: 200px;
   width: 200px;
   margin-bottom: 16px;
+  z-index: 10;
 }
 
 .main h2 {

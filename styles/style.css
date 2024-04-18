@@ -68,10 +68,12 @@ a {
   font-weight: 600;
   color: var(--clr-red);
   transition: color 0.3s;
+  z-index: 10;
 }
 
 a:hover {
   color: var(--clr-light);
+  z-index: 10;
 }
 
 strong {
@@ -96,10 +98,22 @@ button {
   background: none;
   cursor: pointer;
   color: inherit;
+  z-index: 10;
+}
+
+li {
+  z-index: 10;
 }
 
 ::placeholder {
   color: var(--clr-light);
+}
+
+#particles-js {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 /* Custom Scrollbar */
