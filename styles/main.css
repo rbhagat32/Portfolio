@@ -9,6 +9,10 @@
   overflow: hidden;
 }
 
+.invert {
+  filter: invert();
+}
+
 .main {
   display: flex;
   flex-direction: column;
