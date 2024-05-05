@@ -38,7 +38,7 @@
 }
 
 .main h1 {
-  font-size: var(--size-6xl);
+  font-size: var(--size-5xl);
   line-height: 0.9;
   text-transform: uppercase;
 }
@@ -55,11 +55,7 @@
 
 /* Media Queries */
 
-@media (min-width: 375px) {
-  .main h1 {
-    font-size: var(--size-5xl);
-  }
-}
+/* @media (min-width: 375px) {} */
 
 /* @media (min-width: 480px) {} */
 

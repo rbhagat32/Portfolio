@@ -33,7 +33,7 @@
 .about_list {
   display: flex;
   justify-content: flex-start;
-  gap: 8rem;
+  gap: 3rem;
   padding-top: 1rem;
 }
 
