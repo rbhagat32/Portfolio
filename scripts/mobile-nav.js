@@ -2,12 +2,12 @@ const menuIcon = document.querySelector('.menu-icon');
 const mobNav = document.querySelector('.mob-nav');
 const links = document.querySelectorAll('.mob-nav-links');
 
-let flag = false;
+let isOpen = false;
 
 menuIcon.addEventListener('click', () => {
-    flag = !flag;
+    isOpen = !isOpen;
 
-    if (flag) {
+    if (isOpen) {
         mobNav.style.display = 'flex';
         document.body.style.overflowY = 'hidden';
     }
@@ -19,7 +19,7 @@ menuIcon.addEventListener('click', () => {
 
 links.forEach((singleLink) => {
     singleLink.addEventListener('click', () => {
-        flag = false;
+        isOpen = false;
         mobNav.style.display = 'none';
         document.body.style.overflowY = 'auto';
     });
