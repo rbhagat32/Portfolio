@@ -28,6 +28,7 @@
   width: 200px;
   margin-bottom: 16px;
   z-index: 10;
+  filter: drop-shadow(0 0 10px var(--clr-slate800));
 }
 
 .main h2 {

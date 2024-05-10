@@ -43,6 +43,10 @@
   margin-bottom: 5px;
 }
 
+.about_image {
+  filter: drop-shadow(0 0 5px var(--clr-slate800));
+}
+
 .about a {
   text-decoration: underline;
 }

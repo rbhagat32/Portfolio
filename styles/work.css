@@ -27,6 +27,7 @@
   height: 220px;
   margin: 24px auto;
   border-radius: 10px;
+  filter: drop-shadow(0 0 5px var(--clr-slate800));
 }
 
 .outer_heading {
