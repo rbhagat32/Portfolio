@@ -12,7 +12,7 @@
     />
     <link rel="stylesheet" href="styles/style.css" />
     <!-- add styles after -->
-    <link rel="stylesheet" href="styles/back_to_top.css" />
+    <link rel="stylesheet" href="styles/back-to-top.css" />
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="styles/about.css" />
@@ -39,6 +39,7 @@
     <div class="nav-main-wrapper">
       <!-- particlesJs -->
       <div id="particles-js"></div>
+
       <!-- NavBar -->
       <header class="header container gap_24">
         <ul class="header_list">
@@ -362,6 +363,8 @@
       <small>~ &copy; Raghav Bhagat ~</small>
     </footer>
 
+    <!-- ====================SCRIPTS==================== -->
+
     <!-- Animate On Scroll -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
@@ -372,20 +375,13 @@
     <script src="scripts/particles.js"></script>
     <script src="scripts/app.js"></script>
 
-    <!-- Right Click and Text Selection Disable -->
-    <script>
-      document.addEventListener("contextmenu", (e) => {
-        e.preventDefault();
-      });
-      document.addEventListener("selectstart", (e) => {
-        e.preventDefault();
-      });
-    </script>
-
     <!-- Mobile Navigation Menu -->
     <script src="scripts/mobile-nav.js"></script>
 
     <!-- Dark Mode Switcher -->
     <script src="scripts/dark-mode.js"></script>
+
+    <!-- Right Click and Text Selection Disable -->
+    <script src="scripts/selection-disable.js"></script>
   </body>
 </html>
