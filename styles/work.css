@@ -27,7 +27,6 @@
   height: 220px;
   margin: 24px auto;
   border-radius: 10px;
-  filter: drop-shadow(0 0 5px var(--clr-slate800));
 }
 
 .outer_heading {
@@ -99,7 +98,7 @@
     height: 360px;
   }
 
-  .project_1 {
+  .project_left {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -107,23 +106,7 @@
     gap: 24px;
   }
 
-  .project_2 {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-  }
-
-  .project_3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-  }
-
-  .project_4 {
+  .project_right {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
