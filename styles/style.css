@@ -49,6 +49,10 @@ html {
   --clr-dark: #f1f5f9;
 }
 
+.invert {
+  filter: invert();
+}
+
 body {
   font-family: "General Sans", sans-serif;
   background-color: var(--clr-dark);
